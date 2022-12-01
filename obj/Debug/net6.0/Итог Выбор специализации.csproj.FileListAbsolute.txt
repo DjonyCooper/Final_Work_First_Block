@@ -1,0 +1,15 @@
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\bin\Debug\net6.0\Итог Выбор специализации.exe
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\bin\Debug\net6.0\Итог Выбор специализации.deps.json
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\bin\Debug\net6.0\Итог Выбор специализации.runtimeconfig.json
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\bin\Debug\net6.0\Итог Выбор специализации.dll
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\bin\Debug\net6.0\Итог Выбор специализации.pdb
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\obj\Debug\net6.0\Итог Выбор специализации.csproj.AssemblyReference.cache
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\obj\Debug\net6.0\Итог Выбор специализации.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\obj\Debug\net6.0\Итог Выбор специализации.AssemblyInfoInputs.cache
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\obj\Debug\net6.0\Итог Выбор специализации.AssemblyInfo.cs
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\obj\Debug\net6.0\Итог Выбор специализации.csproj.CoreCompileInputs.cache
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\obj\Debug\net6.0\Итог Выбор специализации.dll
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\obj\Debug\net6.0\refint\Итог Выбор специализации.dll
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\obj\Debug\net6.0\Итог Выбор специализации.pdb
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\obj\Debug\net6.0\Итог Выбор специализации.genruntimeconfig.cache
+C:\Users\DJC\Desktop\Обучение в GB\Итог Выбор специализации\obj\Debug\net6.0\ref\Итог Выбор специализации.dll
