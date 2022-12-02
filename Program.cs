@@ -6,44 +6,71 @@
 // ["hello", "2", "world", ":-)"] -> ["2", ":-)"]
 // ["1234", "1567", "-2", "computer science"] -> ["-2"]
 // ["Russia", "Denmark", "Kazan"] -> []
+
 string [] CreativeNewArray(int size)
 {
     string [] array = new string[size];
     Console.Write("\n");
     for(int i = 0; i < array.Length; i++)
     {
-        Console.Write($"Введите элемент массива под индексом {i}: ");
+        Console.Write($"> Введите элемент массива под индексом {i}: ");
         array[i] = Console.ReadLine();
     }
     return array;
 }  
-void ShowArroy(string [] array)
-{   
-    Console.Write($"Вы ввели следующие значения: ");
+void ShowArray(string [] array)
+{  
+    Console.Write("░ Сформирован массив из введенных Вами значений: [");
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write(array[i] + "," + " ");
+        Console.Write($"\"{array[i]}\"" + "," + " ");
     }
-    Console.Write("\b" + "\b \b");
+    Console.Write("\b" + "\b \b" + "]");
 }
-void SelectElementMore3Values(int [] array)
+string[] SelectElementMore3Values(string [] array)
 {
-    for (int i = 0; i < array.Length; i++)
+    int numVal = 0;
+    for (int j = 0; j < array.Length; j++)
     {
-        if(array[i] > 0)
+        if(array[j].Length <= 3)
         {
-            Console.Write("");
+            numVal++;
         }
     }
+    int count = 0;
+    string [] newArr = new string [numVal];
+    for (int i = 0; i < array.Length; i++)
+    {
+        if(array[i].Length <= 3)
+        {
+            newArr[count] = array[i];
+            count++;
+        }
+    }
+    return newArr;
 }
-Console.Write("Cколько значений будет содержать Ваш массив?\n> Введите кол-во: "); 
+void ShowNewArray(string [] array)
+{  
+    Console.Write("\n░ Из него отобранны значения, которые меньше или равны 3-ем символам и упакованы в новый массив: [");
+    int count = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"\"{array[i]}\"" + "," + " ");        
+        count++;
+    }
+    if(count > 0) Console.Write("\b" + "\b \b" + "]");
+    if(count == 0) Console.Write("]");
+}
+Console.Write("░ Cколько значений будет содержать Ваш массив?\n> Введите кол-во: "); 
 int size = Convert.ToInt32(Console.ReadLine());
 if(size <= 0)
 {
-    Console.Write("К сожалению, невозможно сгенерировать массив с отрицательным размером. Исправьте и повторите попытку!"); 
+    Console.Write("Error: К сожалению, невозможно сгенерировать массив с отрицательным размером. Исправьте и повторите попытку!"); 
 }
 else
 {
 string [] newArray = CreativeNewArray(size);
-ShowArroy(newArray);
+ShowArray(newArray);
+string [] SelectElement = SelectElementMore3Values(newArray);
+ShowNewArray(SelectElement);
 }
